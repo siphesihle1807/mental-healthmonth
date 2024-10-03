@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am proud of you!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .quote-container {
+            margin: 30px 0;
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            font-family:Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nice to meet you, <span id="username"></span></h1>
+        <h3>I just wanted to say... </h3>
+        <div class="quote-container">
+            <p id="quote" class="lead"></p>
+        </div>
+        <div class="btn-container">
+            <button id="newQuoteBtn" class="btn btn-primary">New Quote</button>
+            <button id="backBtn" class="btn btn-secondary">Go Back</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
